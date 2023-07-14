@@ -1,13 +1,17 @@
 /**********TAG SELECTORS**********/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
 body{
-    margin: 0px;
     color: #40514E;
     text-align: center;
     font-family: 'Merriweather', serif; 
 }
 
 h1{
-    margin: 0px;
     padding-top: 50px;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
@@ -30,6 +34,7 @@ h3{
 
 a{
     color: #11999E;  
+    text-decoration: none;
 }
 
 a:hover{
@@ -66,8 +71,6 @@ hr{
 
 .bottom-container{
     background-color: #66BFBF;
-    margin:0;
-    
 }
 
 .bols{
